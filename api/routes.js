@@ -13,12 +13,12 @@ function filterRepoData(originalData) {
     const {
         id, name, full_name, html_url, 
         description, created_at, language, 
-        size, open_issues_count, license
+        size, open_issues_count, owner
     } = originalData;
     return {
         id, name, full_name, html_url, 
         description, created_at, language, 
-        size, open_issues_count, license
+        size, open_issues_count, owner: owner.login
     };
 }
 
