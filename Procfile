@@ -1,1 +1,1 @@
-web: node nuxt.js
+web: nuxt start
